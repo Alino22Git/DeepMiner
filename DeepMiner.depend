@@ -1,0 +1,54 @@
+# depslib dependency file v1.0
+1680346476 source:c:\users\hajra\onedrive\fh-technikum\2.semester\pos\Übungsbsp\deepminer\main.cpp
+	"include/GameController.h"
+
+1680348378 source:c:\users\hajra\onedrive\fh-technikum\2.semester\pos\Übungsbsp\deepminer\src\deepbot.cpp
+	"../include/DeepBot.h"
+
+1680279301 c:\users\hajra\onedrive\fh-technikum\2.semester\pos\Übungsbsp\deepminer\include\deepbot.h
+	"Bot.h"
+
+1680361864 c:\users\hajra\onedrive\fh-technikum\2.semester\pos\Übungsbsp\deepminer\include\bot.h
+	<string>
+	<iostream>
+	"GameWorld.h"
+
+1680350456 source:c:\users\hajra\onedrive\fh-technikum\2.semester\pos\Übungsbsp\deepminer\src\cleverbot.cpp
+	"../include/CleverBot.h"
+
+1680279301 c:\users\hajra\onedrive\fh-technikum\2.semester\pos\Übungsbsp\deepminer\include\cleverbot.h
+	"Bot.h"
+
+1680350834 source:c:\users\hajra\onedrive\fh-technikum\2.semester\pos\Übungsbsp\deepminer\src\averagebot.cpp
+	"../include/AverageBot.h"
+
+1680279301 c:\users\hajra\onedrive\fh-technikum\2.semester\pos\Übungsbsp\deepminer\include\averagebot.h
+	"Bot.h"
+
+1680371526 source:c:\users\hajra\onedrive\fh-technikum\2.semester\pos\Übungsbsp\deepminer\src\gameworld.cpp
+	"../include/GameWorld.h"
+
+1680360086 c:\users\hajra\onedrive\fh-technikum\2.semester\pos\Übungsbsp\deepminer\include\gameworld.h
+	<iostream>
+	<bits/stdc++.h>
+	<algorithm>
+	<vector>
+	<numeric>
+
+1680374049 source:c:\users\hajra\onedrive\fh-technikum\2.semester\pos\Übungsbsp\deepminer\gamecontroller.cpp
+	"include/GameController.h"
+
+1680272237 c:\users\hajra\onedrive\fh-technikum\2.semester\pos\Übungsbsp\deepminer\main.cpp
+	<iostream>
+
+1680373098 c:\users\hajra\onedrive\fh-technikum\2.semester\pos\Übungsbsp\deepminer\include\gamecontroller.h
+	<iostream>
+	<string>
+	<ctime>
+	"vector"
+	"Bot.h"
+	"GameWorld.h"
+	"CleverBot.h"
+	"AverageBot.h"
+	"DeepBot.h"
+

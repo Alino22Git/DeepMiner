@@ -1,0 +1,16 @@
+#include "../include/DeepBot.h"
+
+DeepBot::DeepBot(std::string name)
+{
+    this->name = name;
+}
+
+DeepBot::~DeepBot()
+{
+    //dtor
+}
+
+ void DeepBot::mineBlock(GameWorld* gw){
+//std::cout<<"deep";
+points+=gw->earnPointOfField()
+ }

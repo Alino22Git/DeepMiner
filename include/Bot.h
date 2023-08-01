@@ -1,0 +1,27 @@
+#ifndef BOT_H
+#define BOT_H
+#include <string>
+#include <iostream>
+#include "GameWorld.h"
+
+class Bot
+{
+    public:
+        std::string Getname() { return name; }
+        int Getpoints() { return points; }
+        int GetCoordinateX(){return x_coordinate;}
+        int GetCoordinateY(){return y_coordinate;}
+
+        void decreaseX(int x){x_coordinate+=x;}
+        void decreaseY(int y){y_coordinate+=y;}
+        virtual void mineBlock(GameWorld* gw)=0;
+        void moveBot(int x, int y){x_coordinate=x;y_coordinate=y;}
+
+    protected:
+        std::string name;
+        int points = 0;
+        int x_coordinate = 0;
+        int y_coordinate = 0;
+};
+
+#endif // BOT_H

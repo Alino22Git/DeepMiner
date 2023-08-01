@@ -1,0 +1,15 @@
+#include "../include/AverageBot.h"
+
+AverageBot::AverageBot(std::string name)
+{
+   this->name = name;
+}
+
+AverageBot::~AverageBot()
+{
+    //dtor
+}
+
+void AverageBot::mineBlock(GameWorld* gw){
+std::cout<<"Takes just the average ";
+}

@@ -1,0 +1,15 @@
+#include "CleverBot.h"
+
+CleverBot::CleverBot(std::string name)
+{
+   this->name = name;
+}
+
+CleverBot::~CleverBot()
+{
+    //dtor
+}
+
+void CleverBot::mineBlock(){
+std::cout<<"YO MUM Beatiful and CLEVER";
+ }
